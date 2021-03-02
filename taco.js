@@ -170,9 +170,9 @@ console.log(deleteTaco(2))
 
 // I wanted to make this create function a little bit smarter, it makes sure that every param is defined before making
 // the new taco, so that you don't have a taco without any of the required params. it is probably terrible readability
-// but I like it, if it doesnt have a required param, it will tell you "undefined params" before giving you the error that 
+// but I like it, if it doesn't have a required param, it will tell you "undefined params" before giving you the error that 
 // new tacos is undefined
-// Im sure I could use the promise method to make this better but I don't get that at all yet
+// Im sure I could use the promise method to make this better
 
 createTaco = (newID, newName, newPrice, newAbout) => {
     if (newID !== undefined && newName !== undefined && newPrice !== undefined && newAbout !== undefined) {
